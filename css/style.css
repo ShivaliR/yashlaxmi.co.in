@@ -1,0 +1,109 @@
+/**    
+* 
+* ---------------------------------------------------------------------------
+*
+* Template Name: Construction - Factory / Industrial / Construction HTML5 Template
+* Template URL:	 http://lovesome.biz/Construction
+* Author : urosd
+* Description: This is industrial and factory HTML5 template
+* Version : 1.0 
+*
+* --------------------------------------------------------------------------- 
+*
+*/
+
+
+/* CSS files
+====================== */
+
+/***** ----- bootstrap css ----- *****/
+@import url('bootstrap.min.css');
+/***** ----- font awesome css ----- *****/
+@import url('font-awesome.min.css');
+/***** ----- slicknav css ----- *****/
+@import url('slicknav.min.css');
+/***** ----- owl carousel css ----- *****/
+@import url('owl.carousel.min.css');
+/***** ----- animate css ----- *****/
+@import url('animate.css');
+/***** ----- hover css ----- *****/
+@import url('hover-min.css');
+/***** ----- normalize css ----- *****/
+@import url('normalize.css');
+/***** ----- slick slider css ----- *****/
+@import url('slick.css');
+@import url('slick-theme.css');
+/***** ----- lightbox css ----- *****/
+@import url('lightbox.min.css');
+/***** ----- typing css ----- *****/
+@import url('typing.css');
+/***** ----- main css ----- *****/
+@import url('main.css');
+/***** ----- responsive css ----- *****/
+@import url('responsive.css');
+
+
+
+.animated_tab{
+		float:left;
+		width:100%;
+		text-align:center;
+		text-transform : uppercase;
+		margin-bottom:50px;	
+		background: #bd0451;
+	}
+	
+	.animated_tab li{
+		position:relative;
+		display:inline-block;	
+	}
+	
+	.animated_tab li a{
+		display:block;
+		color:#fff;
+		padding:10px 15px;
+		font-weight:bold;
+		text-decoration: none ;
+	}
+	
+	.animated_tab li.active a,
+	.animated_tab li:hover a{
+		color : #fff;
+	}
+	
+	.animated_tab li.active:before,
+	.animated_tab li:hover:before,
+	.animated_tab li.active:after,
+	.animated_tab li:hover:after{
+		background-color: #7c4dff;
+		position: absolute;
+		width:55px;	
+		height:2px;
+	}
+	
+	.animated_tab li:before{
+		content: "";
+		transition: all 0.5s ease-in-out;
+		top: 0px;
+		right: 0px;
+		width: 0px;
+		
+	}
+	
+	.animated_tab li:after {
+		content: "";
+		transition: all 0.5s ease-in-out;
+		left: 0px;
+		bottom: 0px;
+		width: 0px;
+		
+	}
+	
+	.with_border {
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		padding : 20px;
+		margin : 10px;
+	}
+	
+	
+}
